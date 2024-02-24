@@ -1,0 +1,57 @@
+{
+  "@odata.context": "https://azuresearchlabai900.search.windows.net/indexes('coffee-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.6931472,
+      "content": "Review: Today I was truly disappointed with how long I had to wait for the pastries I ordered ahead of time. When I got my box, some of the pastries seemed stale. Terrible experience!  \nDate: October 23, 2018\nLocation: Chicago, Illinois \n\n",
+      "metadata_storage_path": "aHR0cHM6Ly9sYWJhenVyZXN0b3JhZ2VhY2MuYmxvYi5jb3JlLndpbmRvd3MubmV0L2NvZmZlZXJldmlld3MvcmV2aWV3LTguZG9jeA2",
+      "people": [],
+      "organizations": [],
+      "locations": [
+        "Chicago",
+        "Illinois"
+      ],
+      "keyphrases": [
+        "Terrible experience",
+        "Review",
+        "pastries",
+        "time",
+        "box",
+        "Date",
+        "October",
+        "Location",
+        "Chicago",
+        "Illinois"
+      ],
+      "language": "en",
+      "translated_text": [
+        "Review: Today I was truly disappointed with how long I had to wait for the pastries I ordered ahead of time. When I got my box, some of the pastries seemed stale. Terrible experience!  \nDate: October 23, 2018\nLocation: Chicago, Illinois \n\n"
+      ],
+      "masked_text": "[\"Review: ***** I was truly disappointed with how long I had to wait for the pastries I ordered ahead of time. When I got my box, some of the pastries seemed stale. Terrible experience!  \\nDate: ****************\\nLocation: Chicago, Illinois \\n\\n\"]",
+      "sentiment": "[\"negative\"]",
+      "merged_content": "Review: Today I was truly disappointed with how long I had to wait for the pastries I ordered ahead of time. When I got my box, some of the pastries seemed stale. Terrible experience!  \nDate: October 23, 2018\nLocation: Chicago, Illinois \n\n",
+      "text": [],
+      "layoutText": [],
+      "imageTags": [],
+      "imageCaption": [],
+      "pii_entities": [
+        {
+          "text": "Today",
+          "type": "DateTime",
+          "subtype": "Date",
+          "offset": 8,
+          "length": 5,
+          "score": 1
+        },
+        {
+          "text": "October 23, 2018",
+          "type": "DateTime",
+          "subtype": "Date",
+          "offset": 192,
+          "length": 16,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
